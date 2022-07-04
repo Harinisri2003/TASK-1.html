@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;;
+}
+body{
+    background-color: beige;
+    width: 100vw;
+    height: 100vh;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: aqua;
+    list-style: square;
+    align-items: center;
+    align-content: space-between;
+}
+nav ul li img{
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+}
+nav ul li{
+    margin-right: 50px;
+    list-style: square;
+}
+.name{
+    list-style: none; 
+    position: absolute;   
+}
+.starting{
+    color: blueviolet;
+    text-decoration: none;
+    cursor: pointer;
+}
+.home{
+    background-color: plum;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bio{
+    background-color: powderblue;
+}
+.bio img{
+    width: 200px;
+    height: 200px;
+}
+.biotext{
+    position: absolute;
+    margin-left: 250px;
+    top: 20%;
+    bottom: 20%;
+}
+.portfolio{
+    background-color: pink;
+}
+#img-1{
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+}
+#p-2{
+    position: absolute;
+    margin-left: 350px;
+    top: 44%;
+    margin-top: 10px;
+    bottom: 20%;
+}
+#img-2{
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+#p-3{
+    margin-left: 690px;
+    top: 44%;
+    position: absolute;
+    margin-top: 10px;
+}
+#img-3{
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+#p-1{
+    margin-top: 10px;
+}
+#skills{
+    background-color: deepskyblue;
+}
+#skills-container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#skills-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+#skills ul{
+    margin: 10px 0;
+}
+progress[value]{
+    height: 10px;
+    width: 350px;
+    -webkit-appearance:none;
+}
+
+progress[value]::-webkit-progress-bar{
+    background-color: grey;
+    border-radius: 2px; */
+     box-shadow: 0 2px 5px rgba(0,0,0,0.25 inset);
+}
+
+::-webkit-progress-value{
+    background-color: #f05136;
+}
+
+#skills ul{
+    font-size: 1.5em;
+}
+
+#contact{
+    background-color: hotpink;
+    color: darkblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.input{
+    line-height: 2em;
+    width: 350px;
+    border-radius: 3px;
+    border-color: black;
+    margin: 20px 0;
+}
+
+#contact form input:last-child{
+    margin-top: 30px;
+}
+
+#contact form{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
